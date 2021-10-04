@@ -53,13 +53,13 @@ p {
   box-sizing: border-box;
 }
 
-.card-summary h1 {
+.card-summary h1,
+.card-summary p {
   text-align: center;
 }
 
 .card-summary p {
   display: block;
-  text-align: center;
   padding: 1.25rem;
   line-height: 1.625rem;
 }
@@ -93,7 +93,7 @@ p {
 }
 
 .card-plan-info h2,
-p {
+.card-plan-info p {
   text-align: left;
   vertical-align: top;
   padding: 0.313rem 0 0 0.625rem;
