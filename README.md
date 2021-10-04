@@ -43,7 +43,8 @@ Users should be able to:
 ### What I learned
 
 In this project I was able to learn more about the `relative` and `absolute` positioning
-in CSS and also could apply the `transition` property.
+in CSS and also could apply the `transition` property. Also started using `rem` unit in
+place of `px`.
 
 The positioning is show in the code below. I learned that in order to properly use the
 `absolute` position, the parent element should be in `relative` position. This made
@@ -53,14 +54,14 @@ structuring the design much easier.
 .card-plan {
   position: relative;
   background-color: #f8f9fe;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .card-plan a {
   position: absolute;
   font-weight: 900;
-  top: 37px;
-  right: 20px;
+  top: 2.313rem
+  right: 1.25rem;
 }
 ```
 
