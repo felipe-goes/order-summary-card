@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: repeat-x;
+  background-color: #e0e8ff;
+  font-family: Red Hat Display;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7280a7;
+}
+
+.card {
+  width: 450px;
+  margin: 5% auto 0px auto;
+
+  background-color: #fff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px #e0e8ff;
+}
+
+.card img {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card-content {
+  padding: 50px;
+}
+
+.card-summary h1 {
+  text-align: center;
+}
+
+.card-summary p {
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
+.card-plan {
+  position: relative;
+  background-color: #f8f9fe;
+  padding: 20px;
+}
+
+.card-plan img {
+  display: inline-block;
+}
+
+.card-plan a {
+  position: absolute;
+  font-weight: 900;
+  top: 37px;
+  right: 20px;
+}
+
+.card-plan-info {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card-plan-info h2,
+p {
+  text-align: left;
+  vertical-align: top;
+  padding: 5px 0px 0px 10px;
+}
+
+.card-plan-info h2 {
+  font-weight: 900;
+}
+
+.card-content button,
+.cancel {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0px 0px 0px;
+  font-size: 16px;
+  font-family: Red Hat Display;
+  font-weight: 700;
+}
+
+.card-content button {
+  width: 100%;
+  border: 0px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 20px hsl(224, 23%, 55%);
+  background-color: #382ae1;
+  color: #fff;
+}
+
+.cancel {
+  color: #7280a7;
+  text-decoration: none;
+}
+
+.attribution {
+  padding: 10px 0px 0px 0px;
+}
+
+.attribution p {
+  display: block;
+  font-size: 8px;
+  text-align: center;
+}

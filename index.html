@@ -12,6 +12,7 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
 
     <title>Frontend Mentor | Order summary card</title>
   </head>
@@ -34,14 +35,16 @@
 
           <div class="card-plan">
             <img src="./images/icon-music.svg" alt="Music icon" />
-            <h2>Annual Plan</h2>
-            <p>$59.99/year</p>
+            <div class="card-plan-info">
+              <h2>Annual Plan</h2>
+              <p>$59.99/year</p>
+            </div>
             <a href="#">Change</a>
           </div>
 
           <button type="button" name="payment">Proceed to Payment</button>
 
-          <a href="#">Cancel Order</a>
+          <a href="#" class="cancel">Cancel Order</a>
         </div>
       </div>
     </main>
