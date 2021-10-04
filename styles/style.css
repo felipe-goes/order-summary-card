@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
 body {
+  font-size: 16px;
   background-image: url("../images/pattern-background-desktop.svg");
   background-repeat: repeat-x;
   background-color: #e0e8ff;
@@ -8,7 +9,7 @@ body {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 900;
 }
 
@@ -17,26 +18,26 @@ h2 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   color: #7280a7;
 }
 
 .card {
-  width: 450px;
-  margin: 5% auto 0px auto;
+  max-width: 28.125rem;
+  margin: 5% auto 0 auto;
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   box-sizing: border-box;
-  box-shadow: 0px 0px 20px #e0e8ff;
+  box-shadow: 0 0 1.25rem #e0e8ff;
 }
 
 .card img {
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 1.25rem 1.25rem 0 0;
 }
 
 .card-content {
-  padding: 50px;
+  padding: 3.125rem;
 }
 
 .card-summary h1 {
@@ -46,13 +47,14 @@ p {
 .card-summary p {
   display: block;
   text-align: center;
-  padding: 20px;
+  padding: 1.25rem;
+  line-height: 1.625rem;
 }
 
 .card-plan {
   position: relative;
   background-color: #f8f9fe;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .card-plan img {
@@ -62,8 +64,8 @@ p {
 .card-plan a {
   position: absolute;
   font-weight: 900;
-  top: 37px;
-  right: 20px;
+  top: 2.313rem;
+  right: 1.25rem;
 }
 
 .card-plan a:hover {
@@ -80,16 +82,16 @@ p {
 p {
   text-align: left;
   vertical-align: top;
-  padding: 5px 0px 0px 10px;
+  padding: 0.313rem 0 0 0.625rem;
 }
 
 .card-content button,
 .cancel {
   display: block;
   text-align: center;
-  padding: 10px;
-  margin: 20px 0px 0px 0px;
-  font-size: 16px;
+  padding: 0.625rem;
+  margin: 1.25rem 0 0 0;
+  font-size: 1rem;
   font-family: Red Hat Display;
   font-weight: 700;
   cursor: pointer;
@@ -97,10 +99,10 @@ p {
 
 .card-content button {
   width: 100%;
-  border: 0px;
-  border-radius: 10px;
+  border: 0;
+  border-radius: 0.625rem;
   box-sizing: border-box;
-  box-shadow: 0px 10px 20px hsl(224, 23%, 55%);
+  box-shadow: 0 0.625rem 1.25rem hsl(224, 23%, 55%);
   background-color: #382ae1;
   color: #fff;
   transition: background-color 500ms;
@@ -120,11 +122,11 @@ p {
 }
 
 .attribution {
-  padding: 10px 0px 0px 0px;
+  padding: 0.625rem 0 0 0;
 }
 
 .attribution p {
   display: block;
-  font-size: 8px;
+  font-size: 0.5rem;
   text-align: center;
 }
