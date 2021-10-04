@@ -1,6 +1,6 @@
 # Frontend Mentor - Order summary card solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -16,8 +16,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -30,81 +28,81 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://felipe-goes.github.io/order-summary-card/](https://felipe-goes.github.io/order-summary-card/)
+- GitHub URL: [https://github.com/felipe-goes](https://github.com/felipe-goes)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- CSS3 properties
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In this project I was able to learn more about the `relative` and `absolute` positioning
+in CSS and also could apply the `transition` property.
 
-To see how you can add code snippets, see below:
+The positioning is show in the code below. I learned that in order to properly use the
+`absolute` position, the parent element should be in `relative` position. This made
+structuring the design much easier.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
+.card-plan {
+  position: relative;
+  background-color: #f8f9fe;
+  padding: 20px;
+}
+
+.card-plan a {
+  position: absolute;
+  font-weight: 900;
+  top: 37px;
+  right: 20px;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+It also was nice to use the `transition` property to give a nice effect when hovering the
+button as you can see in the code below.
+
+```
+.card-content button {
+  width: 100%;
+  border: 0px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 20px hsl(224, 23%, 55%);
+  background-color: #382ae1;
+  color: #fff;
+  transition: background-color 500ms;
 }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I want to continue focusing on the semantic tags of HTML5 and some cool animations
+with CSS3. I also want to use Flexbox and work on a project where I can practice my
+JavaScript skills.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Alura](https://cursos.alura.com.br/user/ogoesfelipe) - I am mainly studying Frontend
+development in this plataform.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- GitHub - [Felipe Góes](https://github.com/felipe-goes)
+- Frontend Mentor - [@felipe-goes](https://www.frontendmentor.io/profile/felipe-goes)
+- Twitter - [@felipeogoes](https://www.twitter.com/felipeogoes)
+- LinkEdin - [https://www.linkedin.com/in/felipe-g%C3%B3es-02357331/](https://www.linkedin.com/in/felipe-g%C3%B3es-02357331/)
+- Email - *ogoesfelipe@gmail.com*
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I wanted to suggest you watching some of the Kevin Powell videos on YouTube. [This video](https://www.youtube.com/watch?v=QqDH5sYzDS8)
+made me find out about the Front Mentor page and got me here and also to thank him for
+this.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I hope some of his videos will be helpful for you as much it was for me.
