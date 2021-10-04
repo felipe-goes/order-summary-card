@@ -25,7 +25,7 @@ p {
 
 .card {
   max-width: 28.125rem;
-  margin: 5% auto 0 auto;
+  margin: 10% auto 0 auto;
   background-color: #fff;
   border-radius: 1.25rem;
   box-sizing: border-box;
@@ -37,7 +37,11 @@ p {
 }
 
 .card-content {
+  width: 100%;
   padding: 3.125rem;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 0 0 1.25rem 1.25rem;
 }
 
 .card-summary h1 {
@@ -55,6 +59,7 @@ p {
   position: relative;
   background-color: #f8f9fe;
   padding: 1.25rem;
+  border-radius: 0.625rem;
 }
 
 .card-plan img {
@@ -129,4 +134,10 @@ p {
   display: block;
   font-size: 0.5rem;
   text-align: center;
+}
+
+@media only screen and (max-width: 25rem) {
+  .card-content {
+    min-width: 28.125rem;
+  }
 }
