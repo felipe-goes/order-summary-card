@@ -8,6 +8,10 @@ body {
   font-family: Red Hat Display;
 }
 
+main {
+  padding: 0rem 1rem 0rem 1rem;
+}
+
 h1 {
   font-size: 1.75rem;
   font-weight: 900;
@@ -42,7 +46,7 @@ p {
 
 .card-content {
   width: 100%;
-  padding: 3.125rem;
+  padding: 2.5rem;
   box-sizing: border-box;
   background-color: #fff;
   border-radius: 0 0 1.25rem 1.25rem;
@@ -60,14 +64,14 @@ p {
 
 .card-summary p {
   display: block;
-  padding: 1.25rem;
+  padding: 1rem;
   line-height: 1.625rem;
 }
 
 .card-plan {
   position: relative;
   background-color: #f8f9fe;
-  padding: 1.25rem;
+  padding: 1rem;
   border-radius: 0.625rem;
 }
 
@@ -135,12 +139,9 @@ p {
   font-weight: 900;
 }
 
-.attribution {
-  padding: 0.625rem 0 0 0;
-}
-
-.attribution p {
+footer p {
   display: block;
   font-size: 0.5rem;
   text-align: center;
+  padding: 0.5rem;
 }
